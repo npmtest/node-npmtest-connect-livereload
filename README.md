@@ -1,6 +1,6 @@
 # npmtest-connect-livereload
 
-#### test coverage for  [connect-livereload (v0.6.0)](https://github.com/intesso/connect-livereload#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-livereload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-livereload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-livereload.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-livereload)
+#### basic test coverage for  [connect-livereload (v0.6.0)](https://github.com/intesso/connect-livereload#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-connect-livereload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-connect-livereload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-connect-livereload.svg)](https://travis-ci.org/npmtest/node-npmtest-connect-livereload)
 
 #### connect middleware for adding the livereload script to the response
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-connect-livereload/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-connect-livereload/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-connect-livereload/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-connect-livereload/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-livereload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-livereload/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-connect-livereload/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-connect-livereload/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-connect-livereload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-connect-livereload/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-connect-livereload/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-connect-livereload/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
